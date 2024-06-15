@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cn("bg-white", manrope.className)}>
+    <html lang="en" className="scroll-smooth">
+      <body className={cn("overflow-x-hidden bg-white", manrope.className)}>
         <MainNavigation />
         {children}
       </body>

@@ -13,7 +13,7 @@ const CarouselCard: React.FC<CarouselCardProps> = ({
   description,
 }) => {
   return (
-    <div className="bg-grey-20 flex w-[500px] flex-col gap-y-6 rounded-md px-6 py-6">
+    <div className="flex w-[320px] flex-col gap-y-6 rounded-md bg-grey-20 px-6 py-6 xl:w-[400px] 2xl:w-[500px]">
       <div className="flex gap-x-7">
         <Image src={icon} alt={title} width={30} height={30} />
         <span className="text-3xl">{title}</span>

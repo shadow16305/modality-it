@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const About = () => {
   return (
     <section
-      className="mx-auto mt-[135px] flex w-11/12 items-center justify-between lg:w-[87%]"
+      className="mx-auto mt-[135px] flex w-11/12 scroll-mt-48 items-center justify-between lg:w-[87%]"
       id="about"
     >
       <div className="relative h-[414px] overflow-hidden lg:w-5/12">
@@ -19,7 +19,7 @@ const About = () => {
       </div>
       <div className="flex w-6/12 flex-col gap-y-10">
         <h2 className="text-3xl">Experts in DICOM, RIS, & PACS Management</h2>
-        <p className="text-grey-40 text-lg">
+        <p className="text-lg text-grey-40">
           We're a dedicated team of experts, formerly employed by Canada's top
           DICOM, RIS, & PACS providers. With an in-depth understanding of
           diagnostic clinics, we're adept at resolving the specific IT issues
@@ -28,7 +28,7 @@ const About = () => {
         <div className="flex items-center justify-between">
           <Link
             href="#footer"
-            className="flex items-center gap-x-2 text-lg font-extrabold text-orange transition hover:opacity-90"
+            className="text-orange-20 flex items-center gap-x-2 text-lg font-extrabold transition hover:opacity-90"
           >
             <span>Contact us</span> <FaArrowRightLong size={12} />
           </Link>

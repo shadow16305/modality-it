@@ -13,7 +13,7 @@ const ServiceCarousel = () => {
     <Carousel>
       <CarouselContent>
         {carouselItems.map((item, index) => (
-          <CarouselItem key={index} className="lg:basis-1/3">
+          <CarouselItem key={index} className="basis-1/3">
             <CarouselCard
               icon={item.iconPath}
               title={item.title}

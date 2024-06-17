@@ -10,7 +10,7 @@ const Services = () => {
       <div className="absolute -right-80 -top-96 size-[640px]">
         <Image src="/images/shared/shadow-ball.png" alt="ball" fill />
       </div>
-      <div className="absolute -right-80 -top-96 -z-10 size-[400px] bg-orange blur-[200px]" />
+      <div className="bg-orange-20 absolute -right-80 -top-96 -z-10 size-[400px] blur-[200px]" />
       <h2 className="text-[75px]">Check our services</h2>
       <div className="flex flex-col gap-y-8">
         <h3 className="text-3xl font-bold">

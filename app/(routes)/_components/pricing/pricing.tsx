@@ -4,7 +4,10 @@ import { cn } from "@/lib/utils";
 
 const Pricing = () => {
   return (
-    <section className="mx-auto mt-6 w-11/12 lg:mt-14" id="pricing">
+    <section
+      className="mx-auto mt-6 w-11/12 scroll-mt-32 lg:mt-14"
+      id="pricing"
+    >
       <h2 className="text-center text-lg font-bold uppercase text-black lg:text-[32px]">
         Pricing
       </h2>
@@ -24,8 +27,8 @@ const Pricing = () => {
             )}
             priceClassName={cn(
               item.size === "Medium"
-                ? "text-white bg-orange"
-                : "text-orange bg-white",
+                ? "text-white bg-orange-20"
+                : "text-orange-20 bg-white",
             )}
           />
         ))}

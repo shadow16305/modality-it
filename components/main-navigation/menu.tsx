@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
-const Menu = () => {
+const Menu = ({ setIsOpen }: { setIsOpen: () => void }) => {
   return (
     <aside className="h-fit w-[290px] bg-[#2A2A2A] bg-[url(../public/images/shared/menu-bg.png)] bg-cover bg-right bg-no-repeat lg:h-screen lg:w-[590px] lg:bg-cover">
       <p className="bg-black py-10 pl-6 text-xs font-extralight tracking-[3.36px] text-white lg:text-[28px]">
@@ -17,8 +17,9 @@ const Menu = () => {
           <Link
             href={service.path}
             key={service.name}
+            onClick={setIsOpen}
             className={cn(
-              "bg-grey-20 py-2 text-center text-[8px] font-extrabold transition hover:text-orange lg:py-5 lg:text-base",
+              "hover:text-orange-20 bg-grey-20 py-2 text-center text-[8px] font-extrabold transition lg:py-5 lg:text-base",
               index === 0 || index === 1 || index === 5 || index === 6
                 ? "w-[110px] lg:w-[250px]"
                 : "w-[70px] lg:w-[164px]",

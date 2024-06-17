@@ -23,7 +23,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
   return (
     <div
       className={cn(
-        "h-[200px] w-[32%] rounded-lg pt-3 lg:h-fit lg:w-[32%] lg:pt-0 2xl:w-[30%]",
+        "h-[200px] w-[32%] rounded-lg pt-3 lg:h-fit lg:w-[32.5%] lg:pt-0 2xl:w-[30%]",
         containerClassName,
       )}
     >

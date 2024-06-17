@@ -34,9 +34,11 @@ const MainNavigation = () => {
             {navLinks.map((link) => (
               <li
                 key={link.name}
-                className="font-semibold transition hover:text-orange"
+                onClick={() => setIsOpen(false)}
+                className="hover:text-orange-20 group relative font-semibold transition"
               >
                 <Link href={link.path}>{link.name}</Link>
+                <span className="bg-orange-20 absolute bottom-0 left-0 h-0.5 w-0 rounded-3xl transition-all group-hover:w-full" />
               </li>
             ))}
           </ul>
@@ -52,7 +54,7 @@ const MainNavigation = () => {
                 transition={{ type: "tween" }}
                 className="fixed right-0 top-0"
               >
-                <Menu />
+                <Menu setIsOpen={() => setIsOpen(false)} />
               </motion.div>
             </>
           )}

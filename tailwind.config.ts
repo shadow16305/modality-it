@@ -21,7 +21,8 @@ const config = {
     },
     extend: {
       colors: {
-        orange: "#EC5733",
+        "orange-20": "#EC5733",
+        "orange-40": "#FF3200",
         "grey-20": "#F7F7F7",
         "grey-40": "#747474",
       },

@@ -7,7 +7,7 @@ const List = () => {
         <li>24/7 Help Desk</li>
         <li>Hardware & Software Installation Help</li>
       </ul>
-      <ul className="w-[47%] space-y-5">
+      <ul className="w-[47%] space-y-5 whitespace-nowrap pl-16 xl:pl-0">
         <li>Network management</li>
         <li>Diagnostic Machines Management Help</li>
         <li>Cybersecurity Solutions</li>

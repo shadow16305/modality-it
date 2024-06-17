@@ -3,6 +3,7 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import MainNavigation from "@/components/main-navigation/main-navigation";
 import { cn } from "@/lib/utils";
+import Footer from "@/components/footer";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={cn("overflow-x-hidden bg-white", manrope.className)}>
         <MainNavigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

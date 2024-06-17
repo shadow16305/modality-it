@@ -124,3 +124,21 @@ export const carouselItems = [
       "Lorem ipsum dolor sit amet consectetur. Cum purus ac ultricies pulvinar placerat rutrum. Quis nulla neque a facilisi orci pellentesque in placerat nunc. Magna ultrices massa fermentum massa dictum eu non. Facilisis elit cras laoreet non id nisl.",
   },
 ];
+
+export const teamItems = [
+  {
+    name: "Ian Nevdashenko",
+    position: "Lead Tech",
+    imgPath: "/images/shared/placeholder-1.png",
+  },
+  {
+    name: "Sanem Korkmaz",
+    position: "Lead Designer",
+    imgPath: "/images/shared/placeholder-2.png",
+  },
+  {
+    name: "Chili Mili",
+    position: "CEO & Founder",
+    imgPath: "/images/shared/placeholder-3.png",
+  },
+];

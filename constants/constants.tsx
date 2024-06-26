@@ -77,21 +77,21 @@ export const menuInfo = [
 export const pricingItems = [
   {
     size: "Small",
-    paragraph: "Small but Mighty: Agile & Personalized!",
+    paragraph: "Global Influence Unleashed!",
     workstationAmount: "2-3",
     price: 379,
     imgPath: "/images/pricing/small-clinic.png",
   },
   {
     size: "Medium",
-    paragraph: "Growing with Agility: The Power of In-Between.",
+    paragraph: "Global Influence Unleashed!",
     workstationAmount: "4-5",
     price: 479,
     imgPath: "/images/pricing/medium-clinic.png",
   },
   {
     size: "Large",
-    paragraph: "Global Influence Unleashed: Where Size Prevails.",
+    paragraph: "Global Influence Unleashed!",
     workstationAmount: "5+",
     price: 679,
     imgPath: "/images/pricing/large-clinic.png",

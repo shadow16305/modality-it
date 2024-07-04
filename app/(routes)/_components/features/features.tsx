@@ -4,9 +4,13 @@ import Link from "next/link";
 
 const Features = () => {
   return (
-    <section className="relative mt-16 overflow-hidden bg-black py-5 md:mt-[135px] md:py-28">
-      <div className="absolute -bottom-10 -left-20 z-10 size-32 rounded-full bg-orange-20 blur-[100px] md:size-80 md:blur-[200px]" />
-      <div className="absolute -right-20 -top-10 z-10 size-32 rounded-full bg-orange-20 blur-[100px] md:size-80 md:blur-[200px]" />
+    <section className="relative mt-7 overflow-hidden bg-black py-5 md:mt-[135px] md:py-28">
+      <div className="absolute left-0 hidden size-[900px] lg:block">
+        <Image src="/images/shared/gradient.png" alt="gradient circle" fill />
+      </div>
+      <div className="absolute -top-64 right-0 hidden size-[900px] rotate-180 lg:block">
+        <Image src="/images/shared/gradient.png" alt="gradient circle" fill />
+      </div>
       <div className="mx-auto w-11/12 text-white md:w-[87%]">
         <div className="relative z-10 flex justify-between">
           <h2 className="text-xl leading-[110%] md:max-w-[670px] md:text-6xl xl:max-w-[800px] xl:text-[75px]">

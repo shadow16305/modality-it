@@ -37,19 +37,19 @@ const PricingCard: React.FC<PricingCardProps> = ({
         </span>
         <span
           className={cn(
-            "mt-7 w-full p-1 text-center text-xs font-semibold md:mt-3 md:w-fit md:rounded-lg lg:p-2 lg:text-xl",
+            "mt-7 w-full p-1 text-center text-xs font-semibold md:mt-3 lg:p-2 lg:text-xl",
             priceClassName,
           )}
         >
           $ {price}/month
         </span>
       </div>
-      <div className="relative mx-auto h-[88px] w-full lg:mt-14 lg:h-[274px] lg:w-11/12">
+      <div className="relative mx-auto h-[88px] w-full lg:h-[274px] lg:w-full">
         <Image
           src={imgSrc}
           alt={size}
           fill
-          className="rounded-b-lg object-cover md:rounded-t-md lg:rounded-lg"
+          className="rounded-b-lg object-cover"
         />
       </div>
     </div>
